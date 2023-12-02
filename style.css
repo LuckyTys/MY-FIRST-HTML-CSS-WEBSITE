@@ -13,3 +13,10 @@ p{ font-size: 21px;
 p{
     color: green;
 }
+#obj{
+    color: grey;
+    text-decoration: underline;
+}
+#res{
+color: dodgerblue;
+}
