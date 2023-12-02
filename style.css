@@ -1,6 +1,15 @@
+/*********************
+Author: luckytys
+Date: 24.11.23
+************************/
+
+/*this i have styled the p tags using external stle sheets*/
+
 p{ font-size: 21px;
     color: blue;
 
 
 }
-
+p{
+    color: green;
+}
