@@ -93,3 +93,9 @@ article.feaured-content{
 div.sub-content{
     font-weight: bolder;
 }
+article {
+    font-size: 12px;
+}
+article p{
+    font-size: 2em;
+}
