@@ -20,3 +20,31 @@ p{
 #res{
 color: dodgerblue;
 }
+#welcome{ color: blue;
+background-color: whitesmoke;
+size: 52px;
+position: absolute;top: 0%;margin-bottom: 0%;
+
+height: auto;
+}
+#firstone {
+    color: black;
+
+}
+#int {
+    color: red;
+}
+#id toy h2 + p{
+    color: green;
+
+}
+
+
+#maincontent p{
+    color: red;
+    font-size: 12 px;
+}
+#subcontent p{
+    color: green;
+    font-size: 10xp;
+}
