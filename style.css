@@ -92,10 +92,16 @@ article.feaured-content{
 }
 div.sub-content{
     font-weight: bolder;
+    word-spacing: 9px;
+    line-height: 12px;
+    word-spacing: 2em;
 }
 article {
     font-size: 12px;
 }
 article p{
     font-size: 2em;
+}
+article div p.to{
+    background: green;
 }
