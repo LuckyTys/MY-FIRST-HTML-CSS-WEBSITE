@@ -105,3 +105,9 @@ article p{
 article div p.to{
     background: green;
 }
+div.class{
+    background-image: url(image1.jpg);
+    margin: 100px;
+    padding: 100px;
+    
+}

@@ -67,8 +67,10 @@ div.elements p{
 }
 div h2.inline{
     background-color: rgb(113, 113, 151);
-    background-image:image(th.jpg)
+    height: 100px;
     width: 100px;
-    height: 100 px;
+    background-image:url(image1.jpg)
+    
+  
     
 }
