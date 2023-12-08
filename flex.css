@@ -1,0 +1,28 @@
+body{margin: 0;
+    padding: 0;
+}
+.flex-content{
+   display: flex;
+}
+
+
+div .boxone{
+    height: 100px;
+    min-width: 100px;
+    background: red;
+    flex-grow: 3;
+
+}
+div .boxtwo{
+    height: 100px;
+    min-width: 100px;
+    background:blue;
+    flex-grow: 2;
+}
+div .boxthree{
+    height: 100px;
+    min-width: 100px;
+    background: green;
+    flex-grow: 2;
+    
+}
