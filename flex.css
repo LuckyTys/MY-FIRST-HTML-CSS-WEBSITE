@@ -1,28 +1,36 @@
 body{margin: 0;
     padding: 0;
+
+}
+
+#wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
 }
 .flex-content{
    display: flex;
+   flex-wrap: wrap;
 }
 
 
 div .boxone{
     height: 100px;
-    min-width: 100px;
+    min-width: 200px;
     background: red;
-    flex-grow: 3;
+    flex-shrink: 3;
 
 }
 div .boxtwo{
     height: 100px;
-    min-width: 100px;
+    min-width: 200px;
     background:blue;
-    flex-grow: 2;
+    flex-shrink: 2;
 }
 div .boxthree{
     height: 100px;
-    min-width: 100px;
+    min-width: 200px;
     background: green;
-    flex-grow: 2;
+    flex-shrink: 1;
     
 }
