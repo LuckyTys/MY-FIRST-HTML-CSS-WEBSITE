@@ -1,0 +1,29 @@
+.cup{
+    
+    padding: 0px;
+    background: rgb(189, 189, 198);
+    list-style-type: none;
+
+}
+ul li a{
+    text-decoration: none;
+  
+    padding: 10px;
+    display: block;
+    color: white;
+
+}
+ul li a:hover{
+    background-color: rgb(188, 91, 91);
+    
+}
+ 
+div ul{
+    display: flex;
+    justify-content: center;
+
+}
+div li{
+    /flex: 1 1 0;
+}
+
