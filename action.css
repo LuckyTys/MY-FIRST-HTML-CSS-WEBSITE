@@ -1,29 +1,54 @@
-.cup{
-    
-    padding: 0px;
-    background: rgb(189, 189, 198);
-    list-style-type: none;
 
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-ul li a{
-    text-decoration: none;
-  
+
+header {
+    background-color: #333;
+    color: #fff;
     padding: 10px;
-    display: block;
-    color: white;
-
+    text-align: center;
 }
-ul li a:hover{
-    background-color: rgb(188, 91, 91);
+
+nav a{
+    
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0%;
+    display: block;
     
 }
- 
-div ul{
+nav a:hover{
+    background: blue;
+}
+
+nav ul{
     display: flex;
-    justify-content: center;
-
-}
-div li{
-    /flex: 1 1 0;
+    list-style-type: none;
 }
 
+nav li{
+    flex: 1 1 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+a.tw{
+    background-image: url(twitter.png)  no-repeat center ;
+    background-size: 80%;
+}
+a.fb{
+    background-image: url(facebook.jpg) no-repeat center;
+    background-size: 80%;
+}
+.social a{ 
+    text-indent: -1000px;
+}
