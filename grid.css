@@ -7,8 +7,10 @@ body{
     background: grey ;
     margin: 0 auto;
     max-width: 900px;
-    grid-template-columns: 300px 300px 300px 300px 300px 300px;
+    grid-template-columns: repeat(6, 1fr);
     display: grid;
+    grid-template-rows: 100px 200px 300px;
+    gap: 20px;
 
 
 }
@@ -17,7 +19,22 @@ body{
     padding: 20px;
     text-align: center;
     border: 1px solid;
+    
 }
-.gridcontent > div :nth-child(1){
-    grid-column: 1 / span 2;
+div #dot {
+ grid-column: 1 /  span 2;
+}
+div #dot2 {
+    grid-column: span 3;
+}
+div #dot3 {
+    grid-column: 1 / span 3;
+    
+}
+div #dot5 {
+    grid-column: 2 / span 4;
+    
+}div #dot6 { 
+    justify-self: end;
+    align-self: center;
 }
