@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Programming"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MY-FIRST-HTML-CSS-WEBSITE"
+	}
+}
